@@ -1,0 +1,2 @@
+# AWS_CloudWatch_LogsInsights_Querys
+AWS_CloudWatch_LogsInsights_Querys
