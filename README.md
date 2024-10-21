@@ -3,6 +3,7 @@ AWS_CloudWatch_LogsInsights_Querys
 
 **Filtrar IP Origem, URI e Ação** <br>
 fields @timestamp, @message, @logStream, @log <br>
+| filter action = 'ALLOW' <br>
 | stats count(*) as qty by httpRequest.clientIp, httpRequest.uri, action <br>
 | sort qty desc <br>
 
